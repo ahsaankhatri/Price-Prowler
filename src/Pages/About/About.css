@@ -1,0 +1,21 @@
+.about-wrapper .about-container{
+    justify-content: center;
+}
+
+.about-wrapper .about-container .title{
+    color: #ffff;
+    text-transform: uppercase;
+    font-weight:600;
+    font-size:7ch;
+}
+
+.about-wrapper .about-container .para p{
+    color:  #979797;
+    line-height: 2em;
+    margin: 3rem 20rem;
+}
+
+.about-wrapper .about-container .Numbers{
+    justify-content: space-between;
+    color: #ffffff;
+}

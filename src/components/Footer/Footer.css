@@ -1,0 +1,31 @@
+.f-wrapper .f-container{
+    color: #ffff;
+    font-size:large;
+    font-weight:500;
+    font-size:x-large;
+    text-indent: 0.5rem;
+}
+
+.f-wrapper .f-container .line1{
+    justify-content: center;
+}
+
+.f-wrapper .f-container .line2{
+    justify-content: center;
+}
+
+.f-wrapper .f-container .line1 .about a:hover{
+    color: #05d405;
+}
+
+.f-wrapper .f-container .line1 .contact a:hover{
+    color: #05d405;
+}
+
+.f-wrapper .f-container .line1 .TandC a:hover{
+    color: #05d405;
+}
+
+.f-wrapper .f-container .line1 .privacy a:hover{
+    color: #05d405;
+}

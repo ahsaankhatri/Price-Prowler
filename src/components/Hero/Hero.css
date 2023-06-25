@@ -1,0 +1,50 @@
+.hero-wrapper{
+    text-align: center;
+}
+.hero-title>h1{
+    font-weight: 600;
+    font-size: 3.8rem;
+    color: #ffffff;
+}
+.hero-wrapper .hero-des span{
+    color: #b5b2ad;
+}
+.hero-wrapper .Numbers{
+    justify-content: space-between;
+    color: #ffffff;
+}
+.hero-wrapper .hero-main .hero-title h1{
+    line-height: 1em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.hero-wrapper .hero-main .hero-des p{
+    color:  #979797;
+    line-height: 2em;
+    padding: 10px 0;
+}
+.hero-wrapper .hero-main input{
+    border-radius:  30px 0px 0px 30px;
+    background-color: #504f4f;
+    border: none;
+    color: #9a9797;
+    padding: 20px 35px;
+    padding-right: 200px;
+}
+.hero-wrapper .hero-main input::placeholder{
+    color: #9a9797;
+}
+.hero-wrapper .hero-main select{
+    background-color: #504f4f;
+    color: #9a9797;
+    border-radius:  0px 30px 30px 0px;
+    padding: 20px 15px;
+    border-left: solid;
+    border-width: 0px 0px 0px 1px;
+    border-color: #9a9797;;
+}
+.hero-wrapper .hero-main .new-row{
+    justify-content: center;
+    margin-top: 30px;
+}
