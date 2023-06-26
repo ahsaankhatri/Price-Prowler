@@ -7,6 +7,7 @@
     text-transform: uppercase;
     font-weight:600;
     font-size:7ch;
+    margin-right: 9em;
 }
 
 .about-wrapper .about-container .para p{
@@ -15,7 +16,13 @@
     margin: 3rem 20rem;
 }
 
-.about-wrapper .about-container .Numbers{
-    justify-content: space-between;
-    color: #ffffff;
+.banner-section {
+    flex: 1;
+    color: #ffff;
+    border: 1px solid #343232;
+    margin: 0 15em 0 5em;
+    text-align: center;
+    border-radius: 40px;
+    padding-bottom: 50em;
+    background-color: #343232;
 }

@@ -1,7 +1,6 @@
 import React from "react";
 import "./Hero.css"
 import "../Header/Header.css"
-import CountUp from "react-countup";
 
 const Hero = () => {
     return(
@@ -54,33 +53,28 @@ const Hero = () => {
                         </div>
                             <button>Check</button>
                         </div>
+                        <div className="check-boxes">
+                            <div>Vendors :</div>
+                            <input id="amazon" type="checkbox" />
+                            <label for="amazon" className="main">Amazon
+                                <span className="mark"></span>
+                            </label>
+                        
+                            <input id="walmart" type="checkbox" />
+                            <label for="walmart" className="main">Walmart
+                                <span className="mark"></span>
+                            </label>
+                        
+                            <input id="costco" type="checkbox" />
+                            <label for="costco" className="main">Costco
+                                <span className="mark"></span>
+                            </label>
 
-
-                            <div className="flex-row Numbers">
-                            <div className="col-2 stats1">
-                                <span>
-                                    <CountUp start={0} end={200} duration={3}/>
-                                    <span>K+ </span>
-                                </span>
-                                <span>Product Searched</span>
-                            </div>
-
-                            <div className="stats2">
-                                <span>
-                                    <CountUp start={0} end={5} duration={3}/>
-                                    <span>K+ </span>
-                                </span>
-                                <span>Happy Customers</span>
-                            </div>
-
-                            <div className="stats3">
-                                <span>
-                                    <CountUp start={0} end={3} duration={5}/>
-                                    <span>+ </span>
-                                </span>
-                                <span>Multiple Vendors</span>
-                            </div>
-                            </div>
+                            <input id="dollartree" type="checkbox" />
+                            <label for="dollartree" className="main">Dollartree
+                                <span className="mark"></span>
+                            </label>
+                        </div>
                     </div>
                 </div>
         </section>

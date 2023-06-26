@@ -53,6 +53,31 @@ body .h-wrapper .menu ul li>*:hover{
     color: #05d405;
 }
 
+body .h-wrapper .menu-icon{
+    display: none;
+}
+
+@media (max-width : 768px) { 
+    body .h-wrapper  .menu-icon{
+        display: block;
+    }
+    body .h-wrapper .menu ul{
+        color: #ffff;
+        position: absolute;
+        top: 3rem;
+        right: 4rem;
+        background: transparent;
+        flex-direction: column;
+        font-weight:500;
+        gap: 1rem;
+        padding: 2rem;
+        transition: all 400ms ease-in;
+    }
+    body .h-wrapper .h-container .logo h1{
+        display: none;
+    }
+}
+
 body .flex-row{display: flex; flex-direction: row; flex-wrap: wrap;}
 body .flex-row .col-1{flex: 0 0 8.34%; width: 8.34%;}
 body .flex-row .col-2{flex: 0 0 16.67%; width: 16.67%;}

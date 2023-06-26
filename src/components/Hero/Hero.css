@@ -48,3 +48,15 @@
     justify-content: center;
     margin-top: 30px;
 }
+
+.hero-wrapper .hero-main .check-boxes{
+    color: #ffffff;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    padding: 0 5em;
+}
+
+[type="checkboxes"]{
+    vertical-align: middle;
+}
