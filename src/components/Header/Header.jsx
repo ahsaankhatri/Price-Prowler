@@ -28,7 +28,7 @@ const Header = () => {
             <div className="col-8">
                 <div className="menu" >
                     <ul style={getMenuStyles(menuOpened)}>
-                        <li><NavLink exact activeclassname="active" to="/">Home</NavLink></li>
+                        <li><NavLink exact="true" activeclassname="active" to="/">Home</NavLink></li>
                         <li><NavLink activeclassname="active" to="/about">About Us</NavLink></li>
                         <li><NavLink activeclassname="active" to="/contact">Contact</NavLink></li>
                     </ul>

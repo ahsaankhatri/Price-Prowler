@@ -84,12 +84,24 @@ textarea {
   margin: 5rem auto 25px 16rem;
 }
 
-input[type=checkbox] + label {
-color: #05d405;
-font-style: italic;
-} 
+input[type=checkbox]{
+  transform: scale(2);
+  right:313px;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
 
-input[type=checkbox]:checked + label {
-color: #f00;
-font-style: normal;
+.submit-button{
+    float:right;
+    border-radius: 60px;
+}
+
+.terms-checkbox p{
+  display: inline;
+  color: #ffffff;
+}
+
+.terms-checkbox p a{
+  color: #05d405;
 }

@@ -47,17 +47,16 @@ const Contact = () => {
                     <label>Message</label>
                   </div>
                 </div>
+                <div className='terms-checkbox'>
+                <input id="terms" type="checkbox" />
+                <p>I agree to the <a href="/contact">Terms of Service</a> and <a href="/contact">Privacy Policy</a>
+                  . I have read the terms and conditions and I accept the processing of my personal data in accordance
+                    with the Explicit Consent Text.</p>
+                </div>
+              <div className='submit-button'>
+                <button>Submit</button>
+              </div>
             </div>
-            <div className='submit-button'>
-              <button>Submit</button>
-            </div>
-            {/* <span>I agree to the</span>
-            <span> </span>
-            <span>Terms of Service</span>
-            <span> and </span>
-            <span>Privacy Policy</span>
-            <span>. I have read the terms and conditions and I accept the processing of my personal data in accordance
-                with the Explicit Consent Text.</span> */}
                 <div className="banner-section-2">
                   Banner Ad
                 </div>
