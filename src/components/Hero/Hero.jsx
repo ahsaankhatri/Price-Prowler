@@ -53,25 +53,25 @@ const Hero = () => {
                         </div>
                             <button>Check</button>
                         </div>
-                        <div className="check-boxes">
-                            <div>Vendors :</div>
+                        <div className="check-boxes flex-row">
+                            <div className="vendor">Vendors :</div>
                             <input id="amazon" type="checkbox" />
-                            <label for="amazon" className="main">Amazon
+                            <label for="amazon" className="amazon">Amazon
                                 <span className="mark"></span>
                             </label>
                         
                             <input id="walmart" type="checkbox" />
-                            <label for="walmart" className="main">Walmart
+                            <label for="walmart" className="walmart">Walmart
                                 <span className="mark"></span>
                             </label>
                         
                             <input id="costco" type="checkbox" />
-                            <label for="costco" className="main">Costco
+                            <label for="costco" className="costco">Costco
                                 <span className="mark"></span>
                             </label>
 
                             <input id="dollartree" type="checkbox" />
-                            <label for="dollartree" className="main">Dollartree
+                            <label for="dollartree" className="dollartree">Dollartree
                                 <span className="mark"></span>
                             </label>
                         </div>

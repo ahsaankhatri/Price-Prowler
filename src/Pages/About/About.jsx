@@ -11,7 +11,7 @@ const About = () => {
       <Header />
       <div className='about-wrapper'>
             <div className="about-container flex-row">
-                <div className="banner-section">
+                <div className="banner-section-1">
                   Banner Ad
                 </div>
               <div className="title">
@@ -29,9 +29,9 @@ const About = () => {
                   sapien Lorem ipsum dolor sit amet consectetur. Sit senectus odio dui lectus rutrum enim scelerisque tincidunt. Tellus
                   neque porttitor luctus nec ut mattis et in. Justo eget at sit elit est. Elementum tristique fusce sapien</p>
               </div>
-              {/* <div class="banner-section2">
-                Banner Ad
-              </div> */}
+              <div className="banner-section-2">
+                  Banner Ad
+              </div>
           </div>
     </div>
     <Footer/>

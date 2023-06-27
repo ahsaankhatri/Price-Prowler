@@ -3,35 +3,93 @@
 }
 
 .contact-wrapper .contact-container .title{
-    color: #09dd09;
+    color: #05d405;
+    font-size: 22px;
+    line-height: 28px;
     text-transform: uppercase;
+    position: relative;
+    left: 439px;
+    top:3rem;
+    font-weight: lighter;
+    letter-spacing: 1px;
 }
-.contact-wrapper .contact-container form{
-    max-width: 400px;
-    margin: 0 auto;
-    color: #09dd09;
-  }
 
-  input::placeholder{
-    color: #09dd09;
-  }
+input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label {
+  font-size: 0.75em;
+  color: #05d405;
+  top: -5px;
+  -webkit-transition: all 0.225s ease;
+  transition: all 0.225s ease;
+}
 
-  input,
-  textarea {
-    display: block;
-    margin-bottom: 10px;
+.styled-input {
+  float: left;
+  width: 293px;
+  margin: 1rem 0;
+  position: relative;
+  border-radius: 4px;
+}
+
+@media only screen and (max-width: 768px){
+  .styled-input {
+      width:100%;
   }
-  
-  input,
-  textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-  }
-  
-  input[type="checkbox"] {
-    display: inline-block;
-    margin-right: 5px;
-  }
-  
+}
+
+.styled-input label {
+  color: #05d405;
+  padding: 0.7rem 30px 1rem 30px;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  pointer-events: none;
+}
+
+.styled-input.wide { 
+  width: 650px;
+  max-width: 100%;
+}
+
+input,
+textarea {
+  padding: 20px;
+  border: 0;
+  width: 100%;
+  font-size: 1rem;
+  background-color: #ffffff;
+  color: #05d405;
+  border-radius: 4px;
+}
+
+input:focus,
+textarea:focus { outline: 0; }
+
+input:focus ~ span,
+textarea:focus ~ span {
+  width: 100%;
+  -webkit-transition: all 0.075s ease;
+  transition: all 0.075s ease;
+}
+
+textarea {
+  width: 100%;
+  min-height: 15em;
+}
+
+.input-container {
+  width: 650px;
+  max-width: 100%;
+  margin: 5rem auto 25px 16rem;
+}
+
+input[type=checkbox] + label {
+color: #05d405;
+font-style: italic;
+} 
+
+input[type=checkbox]:checked + label {
+color: #f00;
+font-style: normal;
+}

@@ -5,17 +5,17 @@ import "../Header/Header.css"
 const Companies = () => {
     return(
         <section className="c-wrapper">
-            <div className="flex-row h-container">
-                <div className="col-2 amazon">
+            <div className="flex-row c-container flex-row">
+                <div className="amazon">
                     <img src="./amazon.png" alt="amazon-logo" />
                 </div>
-                <div className="col-3 walmart">
+                <div className="walmart">
                     <img src="./walmart.png" alt="walmart-logo" />
                 </div>
-                <div className="col-3 costco">
+                <div className="costco">
                     <img src="./costco.png" alt="costco-logo" />
                 </div>
-                <div className="col-4 dollartree">
+                <div className="dollartree">
                     <img src="./dollartree.png" alt="dollar-tree-logo" />
                 </div>
             </div>

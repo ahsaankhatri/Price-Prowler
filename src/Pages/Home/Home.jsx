@@ -8,7 +8,13 @@ const Home = () => {
   return (
     <div>
       <Header/>
+      <div className="banner-section-1">
+        Banner Ad
+      </div>
       <Hero/>
+      <div className="banner-section-2">
+        Banner Ad
+      </div>
       <Companies/>
       <Footer/>
     </div>

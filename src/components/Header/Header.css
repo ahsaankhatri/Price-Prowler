@@ -25,6 +25,10 @@ body .h-wrapper .menu ul li a{
     color: #ffffff;
 }
 
+body .h-wrapper .menu ul li a.active{
+    color: #05d405;
+}
+
 body .h-wrappper .flex-row{
     align-items: center;
     justify-content: space-between;

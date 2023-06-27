@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import './Header.css';
 import { FaHeart } from 'react-icons/fa';
+import { NavLink } from "react-router-dom";
 //import { TiThMenu } from "@react-icons/all-files/fa/TiThMenu";
 
 
@@ -12,6 +13,7 @@ const Header = () => {
             return {right: !menuOpened && "-100%"}
         }
     }
+
     return (
         <section className="h-wrapper">
             <div className="flex-row h-container">
@@ -26,9 +28,9 @@ const Header = () => {
             <div className="col-8">
                 <div className="menu" >
                     <ul style={getMenuStyles(menuOpened)}>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/about">About Us</a></li>
-                        <li><a href="/contact">Contact</a></li>
+                        <li><NavLink exact activeclassname="active" to="/">Home</NavLink></li>
+                        <li><NavLink activeclassname="active" to="/about">About Us</NavLink></li>
+                        <li><NavLink activeclassname="active" to="/contact">Contact</NavLink></li>
                     </ul>
                 </div>
             </div>

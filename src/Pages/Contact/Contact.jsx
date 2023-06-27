@@ -9,27 +9,58 @@ const Contact = () => {
       <Header />
       <div className="contact-wrapper">
         <div className="contact-container flex-row">
+                <div className="banner-section-1">
+                  Banner Ad
+                </div>
             <div className="title">
                 Contact Form
             </div>
 
-            <div className="form">
-                <form action="submit">
-                        <input type="text" id="first-name" name="first-name" placeholder='First Name' required />
-                        <input type="text" id="last-name" name="last-name" placeholder='Last Name' required />
-                        <input type="text" id="phone" name="phone" placeholder='Phone Number' required />
-                        <input type="text" id="email" name="email" placeholder='Email' required />
-                        <textarea id="message" name="message" placeholder='Message' required></textarea>
-
-                        <label>
-                        <input type="checkbox" id="terms" name="terms" />
-                        I agree to the and . I have read the terms and conditions
-                        and I accept the processing of my personal data in accordance with the Explicit
-                        Consent Text.
-                        </label>
-                    <button>Submit</button>
-                </form>
+            <div className="row input-container">
+                <div className="col-md-6 col-sm-12">
+                  <div className="styled-input">
+                    <input type="text" required />
+                    <label>First Name</label> 
+                  </div>
+                </div>
+                <div className="col-md-6 col-sm-12">
+                  <div className="styled-input" style={{float: 'right'}}>
+                    <input type="text" required />
+                    <label>Last Name</label> 
+                  </div>
+                </div>
+                <div className="col-md-6 col-sm-12">
+                  <div className="styled-input">
+                    <input type="text" required />
+                    <label>Phone Number</label> 
+                  </div>
+                </div>
+                <div className="col-md-6 col-sm-12">
+                  <div className="styled-input" style={{float: 'right'}}>
+                    <input type="text" required />
+                    <label>Email</label> 
+                  </div>
+                </div>
+                <div className="col-xs-12">
+                  <div className="styled-input wide">
+                    <textarea required></textarea>
+                    <label>Message</label>
+                  </div>
+                </div>
             </div>
+            <div className='submit-button'>
+              <button>Submit</button>
+            </div>
+            {/* <span>I agree to the</span>
+            <span> </span>
+            <span>Terms of Service</span>
+            <span> and </span>
+            <span>Privacy Policy</span>
+            <span>. I have read the terms and conditions and I accept the processing of my personal data in accordance
+                with the Explicit Consent Text.</span> */}
+                <div className="banner-section-2">
+                  Banner Ad
+                </div>
         </div>
       </div>
       <Footer />
