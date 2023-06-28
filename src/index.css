@@ -37,6 +37,36 @@
   text-align: center; 
 }
 
+@media (max-width : 820px) {
+  .banner-section-1{
+    position: absolute;
+    left: 20px;
+    top: 150px;
+    width: 350px;
+    height: 300px;
+    border-radius: 35px;
+    background-color: #414141b2;
+    color: #fff;
+    font-size: 14px;
+    line-height: 5em;
+    text-align: center;
+    margin-top: 7em;
+  }
+  .banner-section-2{
+    position: relative;
+    top: 30px;
+    left: 1px;
+    width: 350px;
+    height: 300px;
+    border-radius: 35px;
+    background-color: #414141b2;
+    color: #fff;
+    font-size: 14px;
+    line-height: 5em;
+    text-align: center;
+  }
+}
+
 button{
   padding: 18px 50px;
   border-radius: 999px;

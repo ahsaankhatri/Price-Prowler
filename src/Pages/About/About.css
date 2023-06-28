@@ -13,4 +13,22 @@
     color:  #979797;
     line-height: 2em;
     margin: 4rem 20rem 8em;
+    text-align: justify;
+}
+
+@media (max-width : 768px) {
+    .about-wrapper .about-container .para p{
+        color:  #979797;
+        line-height: 2em;
+        margin: 2rem 4rem 2em;
+        text-align: justify;
+    }
+
+    .about-wrapper .about-container .title{
+        color: #ffff;
+        text-transform: uppercase;
+        font-weight:600;
+        font-size:4ch;
+        margin-top: 10em;
+    }
 }

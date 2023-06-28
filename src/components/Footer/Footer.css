@@ -30,3 +30,21 @@
 .f-wrapper .f-container .line1 .privacy a:hover{
     color: #05d405;
 }
+
+@media (max-width : 768px) {
+    .f-wrapper .f-container .line1 .about a::before{
+        white-space:normal;
+    }
+
+    .f-wrapper .f-container .line1 .contact a::after{
+        white-space:normal;
+    }
+
+    .f-wrapper .f-container .line1 .TandC a::after{
+        white-space:normal;
+    }
+
+    .f-wrapper .f-container .line1 .privacy a::after{
+        white-space:normal;
+    }
+}

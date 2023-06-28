@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import './Header.css';
-import { FaHeart } from 'react-icons/fa';
+import { TiThMenu } from 'react-icons/ti';
 import { NavLink } from "react-router-dom";
 //import { TiThMenu } from "@react-icons/all-files/fa/TiThMenu";
 
@@ -35,7 +35,7 @@ const Header = () => {
                 </div>
             </div>
             <div className="menu-icon" onClick={()=>setMenuOpened((prev)=>!prev)}>
-                <FaHeart size={30}/>
+                <TiThMenu size={30}/>
             </div>
             </div>
         </section>
