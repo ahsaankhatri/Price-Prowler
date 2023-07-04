@@ -34,7 +34,7 @@ const Header = () => {
             </div>
             <div className="col-6">
                 <div class="menu-wrapper">
-                    <ul style={getMenuStyles(menuOpened)}>
+                    <ul style={getMenuStyles(menuOpened)} id="site-navigation">
                         <li><NavLink exact="true" activeclassname="active" to="/">Home</NavLink></li>
                         <li><NavLink activeclassname="active" to="/about">About Us</NavLink></li>
                         <li><NavLink activeclassname="active" to="/contact">Contact</NavLink></li>
