@@ -1,50 +1,11 @@
-.f-wrapper .f-container{
-    color: #ffff;
-    font-size:large;
-    font-weight:500;
-    font-size:x-large;
-    text-indent: 0.5rem;
-    margin-top: 4em;
-}
-
-.f-wrapper .f-container .line1{
-    justify-content: center;
-}
-
-.f-wrapper .f-container .line2{
-    justify-content: center;
-}
-
-.f-wrapper .f-container .line1 .about a:hover{
-    color: #05d405;
-}
-
-.f-wrapper .f-container .line1 .contact a:hover{
-    color: #05d405;
-}
-
-.f-wrapper .f-container .line1 .TandC a:hover{
-    color: #05d405;
-}
-
-.f-wrapper .f-container .line1 .privacy a:hover{
-    color: #05d405;
-}
-
-@media (max-width : 768px) {
-    .f-wrapper .f-container .line1 .about a::before{
-        white-space:normal;
-    }
-
-    .f-wrapper .f-container .line1 .contact a::after{
-        white-space:normal;
-    }
-
-    .f-wrapper .f-container .line1 .TandC a::after{
-        white-space:normal;
-    }
-
-    .f-wrapper .f-container .line1 .privacy a::after{
-        white-space:normal;
-    }
-}
+body footer#colophon{margin-top: 4.125em;}
+body footer#colophon .footer-links ul{margin: 0; padding: 0; list-style: none; display: flex; align-items: center; justify-content: center; flex-wrap: wrap;}
+body footer#colophon .footer-links ul li{padding-left: 1em; margin-right: 1em; position: relative; display: inline-flex; align-items: center;}
+body footer#colophon .footer-links ul li:before{content: '•'; font-size: 1.250em; font-weight: 600; color: #E3E3E3; position: absolute; left: 0;}
+body footer#colophon .footer-links ul li:nth-child(1){padding-left: 0;}
+body footer#colophon .footer-links ul li:last-child{margin-right: 0;}
+body footer#colophon .footer-links ul li:nth-child(1):before{content: '';}
+body footer#colophon .footer-links ul li a{font-family: var(--global-font-family); font-size: 1.250em; font-weight: 600; color: #E3E3E3;}
+body footer#colophon .copyright{text-align: center;}
+body footer#colophon .copyright p{font-family: var(--global-font-family); font-size: 1.250em; font-weight: 600; color: #E3E3E3;}
+body footer#colophon .copyright p a{font-family: var(--global-font-family); font-size: 1.250em; font-weight: 600; color: #E3E3E3;}

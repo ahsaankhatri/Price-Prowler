@@ -7,61 +7,40 @@ const Contact = () => {
   return (
     <div>
       <Header />
-      <div className="contact-wrapper">
-        <div className="contact-container flex-row">
-                <div className="banner-section-1">
-                  Banner Ad
+      <div id="page">
+    <div class="container">
+        <section class="contact-section">
+            <div class="flex-row">
+                <div class="col-2">
+                    <div class="banner-ad">
+                        <p>Banner Ad</p>
+                    </div>
                 </div>
-            <div className="title">
-                Contact Form
+                <div class="col-8">
+                    <div class="contact-form">
+                        <h1>CONTACT FORM</h1>
+                        <form>
+                            <div class="flex-row">
+                                <div class="col-6"><div class="form-group"><input placeholder="Full Name" type="text" name="" class="text" /></div></div>
+                                <div class="col-6"><div class="form-group"><input placeholder="Last Name" type="text" name="" class="text" /></div></div>
+                                <div class="col-6"><div class="form-group"><input placeholder="Phone Number" type="text" name="" class="text" /></div></div>
+                                <div class="col-6"><div class="form-group"><input placeholder="Email Address" type="email" name="" class="text" /></div></div>
+                                <div class="col-12"><div class="form-group"><textarea placeholder="Message" type="" name="" class="message-box"></textarea></div></div>
+                                <div class="col-12"><div class="form-group"><div class="acceptance"><input type="checkbox" name="" /><label>I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>. I have read the terms and conditions and I accept the processing of my personal data in accordance with the Explicit Consent Text.</label></div></div></div>
+                                <div class="col-12 submit"><div class="form-group"><input type="submit" name="" class="submit-btn" /></div></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="banner-ad">
+                        <p>Banner Ad</p>
+                    </div>
+                </div>
             </div>
-
-            <div className="row input-container">
-                <div className="col-md-6 col-sm-12">
-                  <div className="styled-input">
-                    <input type="text" required />
-                    <label>First Name</label> 
-                  </div>
-                </div>
-                <div className="col-md-6 col-sm-12">
-                  <div className="styled-input" style={{float: 'right'}}>
-                    <input type="text" required />
-                    <label>Last Name</label> 
-                  </div>
-                </div>
-                <div className="col-md-6 col-sm-12">
-                  <div className="styled-input">
-                    <input type="text" required />
-                    <label>Phone Number</label> 
-                  </div>
-                </div>
-                <div className="col-md-6 col-sm-12">
-                  <div className="styled-input" style={{float: 'right'}}>
-                    <input type="text" required />
-                    <label>Email</label> 
-                  </div>
-                </div>
-                <div className="col-xs-12">
-                  <div className="styled-input wide">
-                    <textarea required></textarea>
-                    <label>Message</label>
-                  </div>
-                </div>
-                <div className='terms-checkbox'>
-                <input id="terms" type="checkbox" />
-                <p>I agree to the <a href="/contact">Terms of Service</a> and <a href="/contact">Privacy Policy</a>
-                  . I have read the terms and conditions and I accept the processing of my personal data in accordance
-                    with the Explicit Consent Text.</p>
-                </div>
-              <div className='submit-button'>
-                <button>Submit</button>
-              </div>
-            </div>
-                <div className="banner-section-2">
-                  Banner Ad
-                </div>
-        </div>
-      </div>
+        </section>
+    </div>
+</div>
       <Footer />
     </div>
   )

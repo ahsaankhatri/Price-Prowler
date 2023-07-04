@@ -1,32 +1,39 @@
-import React, { useState } from "react";
+import React, {useState} from "react";
 import './Header.css';
-import { TiThMenu } from 'react-icons/ti';
 import { NavLink } from "react-router-dom";
-//import { TiThMenu } from "@react-icons/all-files/fa/TiThMenu";
+import { AiOutlineMenu } from 'react-icons/ai';
 
 
 const Header = () => {
-    const [menuOpened, setMenuOpened] = useState(false)
-    const getMenuStyles = (menuOpened) => {
-        if (document.documentElement.clientWidth <= 800)
-        {
-            return {right: !menuOpened && "-100%"}
+        const [menuOpened, setMenuOpened] = useState(false)
+        const getMenuStyles = (menuOpened) => {
+            if (document.documentElement.clientWidth <= 800)
+            {
+                return {right: !menuOpened && "-100%"}
+            }
         }
-    }
 
     return (
-        <section className="h-wrapper">
-            <div className="flex-row h-container">
-                <div className="col-3">
+        <header id="masthead" className="site-header">
+        <div className="header-container">
+        <div className="flex-row">
+            <div className="col-6">
+                <div className="mob-flex">
                     <div className="logo">
-                        <a href="/">
-                            <img src="./PP-Logo.png" alt="Logon" width={100} />
+                        <a href="#">
+                            <div className="logo-box">
+                                <img src="./PP-Logo.png" />
+                                <h2>Price Prowler</h2>
+                            </div>
                         </a>
-                        <h1><a href="/">Price Prowler</a></h1>
+                    </div>
+                    <div className="menu-icon" onClick={()=>setMenuOpened((prev)=>!prev)}>
+                        <AiOutlineMenu size={30}/>
                     </div>
                 </div>
-            <div className="col-8">
-                <div className="menu" >
+            </div>
+            <div className="col-6">
+                <div class="menu-wrapper">
                     <ul style={getMenuStyles(menuOpened)}>
                         <li><NavLink exact="true" activeclassname="active" to="/">Home</NavLink></li>
                         <li><NavLink activeclassname="active" to="/about">About Us</NavLink></li>
@@ -34,12 +41,10 @@ const Header = () => {
                     </ul>
                 </div>
             </div>
-            <div className="menu-icon" onClick={()=>setMenuOpened((prev)=>!prev)}>
-                <TiThMenu size={30}/>
-            </div>
-            </div>
-        </section>
-    )
+        </div>
+    </div>
+</header>
+)
 }
 
 export default Header

@@ -9,31 +9,30 @@ const About = () => {
   return (
     <div>
       <Header />
-      <div className='about-wrapper'>
-            <div className="about-container flex-row">
-                <div className="banner-section-1">
-                  Banner Ad
+      <div id="page">
+    <div class="container">
+        <section class="about-section">
+            <div class="flex-row">
+                <div class="col-2">
+                    <div class="banner-ad">
+                        <p>Banner Ad</p>
+                    </div>
                 </div>
-              <div className="title">
-                About Us
-              </div>
-
-              <div className='para'>
-                <p>Lorem ipsum dolor sit amet consectetur. Sit senectus odio dui lectus rutrum enim scelerisque tincidunt. Tellus neque
-                  porttitor luctus nec ut mattis et in. Justo eget at sit elit est. Elementum tristique fusce sapien Lorem ipsum dolor sit amet
-                  consectetur. Sit senectus odio dui lectus rutrum enim scelerisque tincidunt. Tellus neque porttitor luctus nec ut mattis et
-                  in. Justo eget at sit elit est. Elementum tristique fusce sapien Lorem ipsum dolor sit amet consectetur. Sit senectus odio
-                  dui lectus rutrum enim scelerisque tincidunt. Tellus neque porttitor luctus nec ut mattis et in. Justo eget at sit elit est.
-                  Elementum tristique fusce sapien Lorem ipsum dolor sit amet consectetur. Sit senectus odio dui lectus rutrum enim
-                  scelerisque tincidunt. Tellus neque porttitor luctus nec ut mattis et in. Justo eget at sit elit est. Elementum tristique fusce
-                  sapien Lorem ipsum dolor sit amet consectetur. Sit senectus odio dui lectus rutrum enim scelerisque tincidunt. Tellus
-                  neque porttitor luctus nec ut mattis et in. Justo eget at sit elit est. Elementum tristique fusce sapien</p>
-              </div>
-              <div className="banner-section-2">
-                  Banner Ad
-              </div>
-          </div>
+                <div class="col-8">
+                    <div class="about-txt">
+                        <h1>ABOUT US</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur. Sit senectus odio dui lectus rutrum enim scelerisque tincidunt. Tellus neque porttitor luctus nec ut mattis et in. Justo eget at sit elit est. Elementum tristique fusce sapien Lorem ipsum dolor sit amet consectetur. Sit senectus odio dui lectus rutrum enim scelerisque tincidunt. Tellus neque porttitor luctus nec ut mattis et in. Justo eget at sit elit est. Elementum tristique fusce sapien Lorem ipsum dolor sit amet consectetur. Sit senectus odio dui lectus rutrum enim scelerisque tincidunt. Tellus neque porttitor luctus nec ut mattis et in. Justo eget at sit elit est. Elementum tristique fusce sapien Lorem ipsum dolor sit amet consectetur. Sit senectus odio dui lectus rutrum enim scelerisque tincidunt. Tellus neque porttitor luctus nec ut mattis et in. Justo eget at sit elit est. Elementum tristique fusce sapien Lorem ipsum dolor sit amet consectetur. Sit senectus odio dui lectus rutrum enim scelerisque tincidunt. Tellus neque porttitor luctus nec ut mattis et in. Justo eget at sit elit est. Elementum tristique fusce sapien </p>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="banner-ad">
+                        <p>Banner Ad</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
+</div>
     <Footer/>
     </div>
   )
