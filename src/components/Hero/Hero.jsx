@@ -1,5 +1,6 @@
 import React from "react";
 import "./Hero.css"
+import { NavLink } from "react-router-dom";
 
 const Hero = () => {
     return(
@@ -54,7 +55,7 @@ const Hero = () => {
                                     </div>
                                 </div>
                                 <div className="submit-btn">
-                                    <a href="/search" className="submit-button" >Check</a>
+                                    <NavLink to="/search" className="submit-button" >Check</NavLink>
                                 </div>
                             </form>
                         </div>
