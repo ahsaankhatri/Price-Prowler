@@ -5,13 +5,13 @@ import { AiOutlineMenu } from 'react-icons/ai';
 
 
 const Header = () => {
-        const [menuOpened, setMenuOpened] = useState(false)
-        const getMenuStyles = (menuOpened) => {
-            if (document.documentElement.clientWidth <= 800)
-            {
-                return {right: !menuOpened && "-100%"}
-            }
+const [menuOpened, setMenuOpened] = useState(false)
+const getMenuStyles = (menuOpened) => {
+        if (document.documentElement.clientWidth <= 800)    
+        {
+            return {right: !menuOpened && "-100%"}
         }
+    }
 
     return (
         <header id="masthead" className="site-header">
@@ -20,7 +20,7 @@ const Header = () => {
             <div className="col-6">
                 <div className="mob-flex">
                     <div className="logo">
-                        <a href="#">
+                        <a href="/">
                             <div className="logo-box">
                                 <img src="./PP-Logo.png" />
                                 <h2>Price Prowler</h2>
@@ -33,7 +33,7 @@ const Header = () => {
                 </div>
             </div>
             <div className="col-6">
-                <div class="menu-wrapper">
+                <div className="menu-wrapper">
                     <ul style={getMenuStyles(menuOpened)} id="site-navigation">
                         <li><NavLink exact="true" activeclassname="active" to="/">Home</NavLink></li>
                         <li><NavLink activeclassname="active" to="/about">About Us</NavLink></li>

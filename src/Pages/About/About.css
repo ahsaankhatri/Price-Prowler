@@ -1,4 +1,4 @@
-body #page .about-section .banner-ad{text-align: center; height: 550px; background: rgba(65, 65, 65, 0.7); border-radius: 35px; padding: 1em;}
+body #page .about-section .banner-ad{text-align: center; height: 600px; background: rgba(65, 65, 65, 0.7); border-radius: 35px; padding: 1em;}
 body #page .about-section .banner-ad p{font-family: var(--global-font-family); font-size: 0.875em; font-weight: 400; color: #fff;}
 body #page .about-section .about-txt{text-align: center;}
 body #page .about-section .about-txt h1{font-family: var(--global-font-family); font-size: 4em; font-weight: 600; color: #E3E3E3; margin: 0 0 0.6em 0;}

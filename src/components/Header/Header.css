@@ -33,12 +33,14 @@ body #page .main-section .banner-ad p{font-family: var(--global-font-family); fo
 body #page .main-section .main-form{text-align: center;}
 body #page .main-section .main-form h1{font-family: var(--global-font-family); font-size: 4em; font-weight: 600; color: #E3E3E3; margin: 0 0 0.5em 0; line-height: 1;}
 body #page .main-section .main-form p{font-family: var(--global-font-family); font-size: 0.875em; font-weight: 400; color: #AEAEAE; line-height: 3.5; margin: 0 0 3em 0;}
-body #page .main-section .main-form .my-form form{display: flex; align-items: center; justify-content: center; margin-bottom: 2.500em;}
+body #page .main-section .main-form .my-form form{margin-bottom: 2.500em;}
 body #page .main-section .main-form .my-form form .inputs{margin-right: 1.875em; display: flex; align-items: center; justify-content: center;}
 body #page .main-section .main-form .my-form form .inputs input.prod-input{border: none; padding: 1.5em 3em; color: #8F8F8F; font-weight: 400; border-radius: 999px 0 0 999px; background: #414141; border-right: 1px solid #8F8F8F;}
 body #page .main-section .main-form .my-form form .inputs select.unit-select{border: none; padding: 1.5em 3em; color: #8F8F8F; font-weight: 400; border-radius: 0 999px 999px 0; background: #414141;}
 body #page .main-section .main-form .my-form form .submit-btn button.submit-button{background: #12DE26; font-size: 0.938em; font-weight: 700; color: #021C04; border-radius: 999px; padding: 1.5em 2em; border: none;}
 body #page .main-section .main-form .my-form form .submit-btn button.submit-button:hover{cursor: pointer; background-color: #08b519;}
+body #page .main-section .main-form .my-form form .submit-btn {margin-top: 30px;}
+body #page .vendor-ticks{margin-top: 30px;}
 /*body #page .main-section .counters .counter{text-align: center;}
 body #page .main-section .counters .counter h3{font-family: var(--global-font-family); font-size: 2.625em; font-weight: 600; color: #E3E3E3; margin: 0;}
 body #page .main-section .counters .counter p{font-family: var(--global-font-family); font-size: 0.875em; font-weight: 400; color: #AEAEAE;}*/
@@ -52,7 +54,6 @@ body #page .vendor-ticks .vendor-tick input:checked{background: url('./tick.png'
 body #page .brands-logo-section{margin-top: 6em;}
 body #page .brands-logo-section .brands-logos{max-width: 1156px; margin: 0 auto;}
 body #page .brands-logo-section .brands-logos ul{margin: 0; padding: 0; list-style: none; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;}
-body #page .brands-logo-section .brands-logos ul li{}
 body #page .brands-logo-section .brands-logos ul li img{width: 100%; height: auto; max-width: initial;}
 body .col-6 .menu-wrapper ul li a.active{
     color: #12DE26 !important;
@@ -95,9 +96,10 @@ body .col-6 .menu-wrapper ul li a.active{
     body #page .main-section .main-form .my-form form .inputs select.unit-select{border-radius: 999px; margin-bottom: 1em; width: 90%;}
     body #page .vendor-ticks{margin-bottom: 3em;}
     body #page .brands-logo-section .brands-logos ul li{flex: 0 0 50%;}
-    body #page .brands-logo-section .brands-logos ul li img{transform: scale(0.8);}
+    body #page .brands-logo-section .brands-logos ul li img{transform: scale(0.1);}
     body footer#colophon .footer-links ul li a{font-size: 0.75em;}
     body footer#colophon .copyright p{font-size: 1.05em;}
+    body header#masthead .logo .logo-box img{width: 30%}
     /* About Us */
     body #page .about-section .banner-ad{height: 15em;}
     body #page .about-section .about-txt h1{font-size: 3.2em; margin: 0.6em 0 0.4em 0;}
@@ -125,5 +127,12 @@ body .header-container .menu-icon{
         gap: 1rem;
         padding: 2rem;
         transition: all 400ms ease-in;
+        align-items: flex-start !important;
     }
+    /* #masthead .col-6 .logo .logo-box h2{
+        display: none;
+    } */
+    /* #masthead .col-6 .logo .logo-box{
+        size: 3em;
+    } */
 }

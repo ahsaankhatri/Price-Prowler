@@ -1,4 +1,4 @@
-:root{--global-font-family: 'Poppins', sans-serif; --global-font-size: 1em; --global-font-weight: 400; --global-font-color: #000; --global-background-color: #fff; --global-orange-color: #f06022; --list--font-family: 'Poppins', sans-serif;}
+:root{--global-font-family: 'Poppins'; --global-font-size: 1em; --global-font-weight: 400; --global-font-color: #000; --global-background-color: #fff; --global-orange-color: #f06022; --list--font-family: 'Poppins'}
 body{font-family:var(--global-font-family); font-size:var(--global-font-size); font-weight:var(--global-font-weight); color:var(--global-font-color); background:var(--global-background-color); overflow-x:hidden;}
 body ::selection{background-color: #0FBA20; color:#fff;}
 body .container{max-width: 1800px; margin:0 auto; width: 100%;}

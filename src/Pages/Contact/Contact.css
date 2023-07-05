@@ -1,14 +1,16 @@
-body #page .contact-section .banner-ad{text-align: center; height: 550px; background: rgba(65, 65, 65, 0.7); border-radius: 35px; padding: 1em;}
+body #page .contact-section .banner-ad{text-align: center; height: 600px; background: rgba(65, 65, 65, 0.7); border-radius: 35px; padding: 1em;}
 body #page .contact-section .banner-ad p{font-family: var(--global-font-family); font-size: 0.875em; font-weight: 400; color: #fff;}
 body #page .contact-section .contact-form{max-width: 550px; margin: 0 auto; padding: 2.5em;}
 body #page .contact-section .contact-form h1{font-family: var(--global-font-family); font-size: 1.375em; font-weight: 400; color: #0FBA20;}
 body #page .contact-section .contact-form .form-group{margin-bottom: 35px;}
+body #page .contact-section .contact-form input.text::placeholder{font-family: "poppins" !important}
 body #page .contact-section .contact-form input.text{width: 95%; margin: 0 auto; padding: 1em 0 1em 0.5em; color: #0FBA20;}
-body #page .contact-section .contact-form input.text::placeholder{color: #12DE26;}
-body #page .contact-section .contact-form textarea.message-box{width: 95%; margin: 0 auto; resize: none; height: 10em;}
-body #page .contact-section .contact-form textarea.message-box::placeholder{color: #12DE26;}
+body #page .contact-section .contact-form input.text::placeholder{color: #0FBA20;}
+body #page .contact-section .contact-form textarea.message-box{width: 95%; margin: 0 auto; resize: none; height: 10em; padding-right: 1.5em;}
+body #page .contact-section .contact-form textarea.message-box::placeholder{color: #0FBA20; font-family: "poppins" !important; padding-left: 0.3em;}
 body #page .contact-section .contact-form .acceptance{display: flex;}
 body #page .contact-section .contact-form .acceptance input{width: 22px; height: 22px; background: #fff;}
+body #page .contact-section .contact-form .acceptance input[type="checkbox"]{padding-bottom: 2em;}
 body #page .contact-section .contact-form .acceptance label{font-family: var(--global-font-family); font-size: 0.875em; font-weight: 400; color: #E3E3E3; text-align: justify;}
 body #page .contact-section .contact-form .acceptance label a{color: #0FBA20;}
 body #page .contact-section .contact-form .submit{text-align: right;}
@@ -48,11 +50,11 @@ body #page .contact-section .contact-form  input.submit-btn:hover{cursor: pointe
     body #page .main-section .main-form p{line-height: 2.2;}
     body #page .main-section .main-form .my-form form{flex-direction: column;}
     body #page .main-section .main-form .my-form form .inputs{flex-direction: column; margin-right: 0;}
-    body #page .main-section .main-form .my-form form .inputs input.prod-input{border-radius: 999px; margin-bottom: 1em; width: 90%;}
-    body #page .main-section .main-form .my-form form .inputs select.unit-select{border-radius: 999px; margin-bottom: 1em; width: 90%;}
+    body #page .main-section .main-form .my-form form .inputs input.prod-input{border-radius: 999px; margin-bottom: 1em; width: 70%;}
+    body #page .main-section .main-form .my-form form .inputs select.unit-select{border-radius: 999px; margin-bottom: 1em; width: 70%;}
     body #page .vendor-ticks{margin-bottom: 3em;}
     body #page .brands-logo-section .brands-logos ul li{flex: 0 0 50%;}
-    body #page .brands-logo-section .brands-logos ul li img{transform: scale(0.8);}
+    body #page .brands-logo-section .brands-logos ul li img{transform: scale(0.6);}
     body footer#colophon .footer-links ul li a{font-size: 0.75em;}
     body footer#colophon .copyright p{font-size: 1.05em;}
     /* About Us */
@@ -61,4 +63,5 @@ body #page .contact-section .contact-form  input.submit-btn:hover{cursor: pointe
     body #page .about-section .about-txt p{line-height: 2; font-size: 1.075em; margin: 0 auto 3em auto;}
     /* Contact */
     body #page .contact-section .banner-ad{height: 15em;}
+    body #page .contact-section .contact-form textarea.message-box{padding-right: 0.5em;}
 }

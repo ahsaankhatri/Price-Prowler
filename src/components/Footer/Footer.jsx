@@ -1,20 +1,21 @@
 import React from 'react'
 import './Footer.css'
 import "../Header/Header.css"
+import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
     <footer id="colophon" className="site-footer">
         <div className="footer-links">
             <ul>
-                <li><a href="/about">About Us</a></li>
-                <li><a href="/contact">Contact</a></li>
-                <li><a href="#">Terms & Conditions</a></li>
-                <li><a href="#">Privacy Policy</a></li>
+                <li><NavLink to="/about">About Us</NavLink></li>
+                <li><NavLink to="/contact">Contact</NavLink></li>
+                <li><NavLink to="#">Terms & Conditions</NavLink></li>
+                <li><NavLink to="#">Privacy Policy</NavLink></li>
             </ul>
         </div>
         <div className="copyright">
-            <p><a href="#">Price Prowler</a> LLC &copy; All Rights Reserved.</p>
+            <p>Price Prowler LLC &copy; All Rights Reserved.</p>
         </div>
     </footer>
   )

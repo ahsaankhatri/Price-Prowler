@@ -6,6 +6,6 @@ body footer#colophon .footer-links ul li:nth-child(1){padding-left: 0;}
 body footer#colophon .footer-links ul li:last-child{margin-right: 0;}
 body footer#colophon .footer-links ul li:nth-child(1):before{content: '';}
 body footer#colophon .footer-links ul li a{font-family: var(--global-font-family); font-size: 1.250em; font-weight: 600; color: #E3E3E3;}
+body footer#colophon .footer-links ul li a:hover{color: #12DE26;}
 body footer#colophon .copyright{text-align: center;}
-body footer#colophon .copyright p{font-family: var(--global-font-family); font-size: 1.250em; font-weight: 600; color: #E3E3E3;}
-body footer#colophon .copyright p a{font-family: var(--global-font-family); font-size: 1.250em; font-weight: 600; color: #E3E3E3;}
+body footer#colophon .copyright p{font-family: var(--global-font-family); font-size: 1.250em; font-weight: 600; color: #E3E3E3}

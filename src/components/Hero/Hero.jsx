@@ -44,17 +44,19 @@ const Hero = () => {
                                         </optgroup>
                                     </select>
                                 </div>
+                                <div className="vendor-ticks">
+                                <div className="vendor-head"><h2>VENDORS:</h2></div>
+                                    <div className="vendor-tick-box">
+                                        <div className="vendor-tick"><input type="checkbox" name="" /><label>AMAZON</label></div>
+                                        <div className="vendor-tick"><input type="checkbox" name="" /><label>WALMART</label></div>
+                                        <div className="vendor-tick"><input type="checkbox" name="" /><label>COSTCO</label></div>
+                                        <div className="vendor-tick"><input type="checkbox" name="" /><label>DOLLARTREE</label></div>
+                                    </div>
+                                </div>
                                 <div className="submit-btn">
-                                    <button className="submit-button">Check</button>
+                                    <a href="/search" className="submit-button" >Check</a>
                                 </div>
                             </form>
-                        </div>
-                        <div className="vendor-ticks">
-                            <div className="vendor-head"><h2>VENDORS:</h2></div>
-                            <div className="vendor-tick"><input type="checkbox" name="" /><span></span><label>AMAZON</label></div>
-                            <div className="vendor-tick"><input type="checkbox" name="" /><span></span><label>WALMART</label></div>
-                            <div className="vendor-tick"><input type="checkbox" name="" /><span></span><label>COSTCO</label></div>
-                            <div className="vendor-tick"><input type="checkbox" name="" /><span></span><label>DOLLARTREE</label></div>
                         </div>
                     </div>
                 </div>
