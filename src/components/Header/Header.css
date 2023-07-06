@@ -118,8 +118,8 @@ body .header-container .menu-icon{
     body .col-6 .menu-wrapper ul{
         color: #ffff;
         position: absolute;
-        top: 3rem;
-        right: 4rem;
+        top: 2rem;
+        right: 1em;
         background: transparent;
         flex-direction: column;
         font-weight:500;
