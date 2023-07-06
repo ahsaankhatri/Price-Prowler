@@ -33,7 +33,6 @@ body #page .contact-section .contact-form  input.submit-btn:hover{cursor: pointe
     body .flex-row .col-10{flex: 0 0 100%; width: 100%;}
     body .flex-row .col-11{flex: 0 0 100%; width: 100%;}
     body .flex-row .col-12{flex: 0 0 100%; width: 100%;}
-    body header#masthead .menu-wrapper{display: none;}
     body header#masthead .mob-flex{ position: relative; display: flex; justify-content: space-between; align-items: center; }
     body header#masthead .mobile-burger{ display: block; float: right; }
     body header#masthead .mobile-menu .mm-panel ul li { position: relative; }
