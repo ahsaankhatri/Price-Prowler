@@ -100,7 +100,7 @@ body .col-6 .menu-wrapper ul li a.active{
     body footer#colophon .copyright p{font-size: 1.05em;}
     body header#masthead .logo .logo-box img{width: 30%}
     /* About Us */
-    body #page .about-section .banner-ad{height: 15em;}
+    body #page .about-section .banner-ad{height: 15em; margin-top: 3em;}
     body #page .about-section .about-txt h1{font-size: 3.2em; margin: 0.6em 0 0.4em 0;}
     body #page .about-section .about-txt p{line-height: 2; font-size: 1.075em; margin: 0 auto 3em auto;}
     /* Contact */
